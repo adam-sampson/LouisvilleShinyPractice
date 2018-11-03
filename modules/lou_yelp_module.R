@@ -4,8 +4,9 @@ require(tidyverse)
 require(DT)
 
 # Load Data Sets ----------------------------------------------------------
-
-
+yelp_businesses_df <- read_csv("./data/businesses.csv")
+yelp_inspections_df <- read_csv("./data/inspections.csv")
+yelp_violations_df <- read_csv("./data/violations.csv")
 
 # Module UI ---------------------------------------------------------------
 louYelpUI <- function(id){

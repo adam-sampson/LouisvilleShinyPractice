@@ -41,7 +41,7 @@ ui <- dashboardPage(
 
 # Shiny Control Functions -------------------------------------------------
 server <- function(input, output) {
-  
+  callModule(louMetroCtrl,"lou_metro_services")
 }
 
 # Run the Shiny App -------------------------------------------------------

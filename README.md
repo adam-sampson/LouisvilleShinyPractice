@@ -10,7 +10,9 @@ The app is created using `shinydashboard`.
 
 # The Data
 
-Data was retrieved from the Louisville Open Data site. Data has been downloaded and is a snapshot in time of the most recent csv file available on 2018-11-02. The API was not used for this project because it is outside the scope of the example and would only serve to make the example more complicated.
+Data was retrieved from the Louisville Open Data site. 
+
+The API was used for metro services because it is the only data available. The Yelp information is a napshot in time of the most recent csv file available on 2018-11-02. This was done to keep the app as simple as possible. The goal is to make it easy to understand modularization in shiny apps and not how to collect data.
 
 - Metro services data is located at: [https://data.louisvilleky.gov/dataset/louisville-metro-services-lookup]
 - Yelp Data is located at: [https://data.louisvilleky.gov/dataset/yelp-data]
